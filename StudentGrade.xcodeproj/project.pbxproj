@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		03B291461635E75E004DB578 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03B291451635E75E004DB578 /* main.cpp */; };
 		03B291481635E75E004DB578 /* StudentGrade.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 03B291471635E75E004DB578 /* StudentGrade.1 */; };
+		03B291511635F68F004DB578 /* median.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03B2914F1635F68F004DB578 /* median.cpp */; };
+		03B291541635F901004DB578 /* StudentInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03B291521635F901004DB578 /* StudentInfo.cpp */; };
+		03B291571635FB94004DB578 /* grade.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03B291551635FB94004DB578 /* grade.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +31,12 @@
 		03B291411635E75E004DB578 /* StudentGrade */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = StudentGrade; sourceTree = BUILT_PRODUCTS_DIR; };
 		03B291451635E75E004DB578 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		03B291471635E75E004DB578 /* StudentGrade.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = StudentGrade.1; sourceTree = "<group>"; };
+		03B2914F1635F68F004DB578 /* median.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = median.cpp; sourceTree = "<group>"; };
+		03B291501635F68F004DB578 /* median.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = median.h; sourceTree = "<group>"; };
+		03B291521635F901004DB578 /* StudentInfo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StudentInfo.cpp; sourceTree = "<group>"; };
+		03B291531635F901004DB578 /* StudentInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentInfo.h; sourceTree = "<group>"; };
+		03B291551635FB94004DB578 /* grade.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = grade.cpp; sourceTree = "<group>"; };
+		03B291561635FB94004DB578 /* grade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = grade.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,10 +69,24 @@
 		03B291441635E75E004DB578 /* StudentGrade */ = {
 			isa = PBXGroup;
 			children = (
+				03B2914E1635F67E004DB578 /* Classes */,
 				03B291451635E75E004DB578 /* main.cpp */,
 				03B291471635E75E004DB578 /* StudentGrade.1 */,
 			);
 			path = StudentGrade;
+			sourceTree = "<group>";
+		};
+		03B2914E1635F67E004DB578 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				03B291561635FB94004DB578 /* grade.h */,
+				03B291551635FB94004DB578 /* grade.cpp */,
+				03B291501635F68F004DB578 /* median.h */,
+				03B2914F1635F68F004DB578 /* median.cpp */,
+				03B291531635F901004DB578 /* StudentInfo.h */,
+				03B291521635F901004DB578 /* StudentInfo.cpp */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,6 +141,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				03B291461635E75E004DB578 /* main.cpp in Sources */,
+				03B291511635F68F004DB578 /* median.cpp in Sources */,
+				03B291541635F901004DB578 /* StudentInfo.cpp in Sources */,
+				03B291571635FB94004DB578 /* grade.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
